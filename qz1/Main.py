@@ -5,6 +5,9 @@ class Dog:
     def get_name(self):
         return self.__name
 
+    def set_name(self, name):
+        self.__name = name
+
     def info(self):
         return f"Name: {self.__name}"
 
@@ -16,6 +19,9 @@ class Husky(Dog):
 
     def get_age(self):
         return self.__age
+
+    def set_age(self, age):
+        self.__age = age
 
     def info(self):
         return f"Name: {Dog.info(self)}, Age: {self.__age}"
