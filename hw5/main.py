@@ -45,7 +45,7 @@ def read_cases(cur):
     print("Average Price: ", cur.fetchone()[0])
 
     cur.execute("SELECT SUM(total) FROM dataset")
-    print("Total Cost: ", cur.fetchone()[0])
+    print("Total Cost of products: ", cur.fetchone()[0])
 
 
 if __name__ == '__main__':
