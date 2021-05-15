@@ -1,0 +1,22 @@
+{
+  "type": "test type",
+  "count": 4,
+  "users": [
+    {
+      "name": "test",
+      "age": 23
+    },
+    {
+      "name": "new name",
+      "age": 3
+    }
+  ],
+
+  "numbers": [
+    1,
+    2,
+    3
+  ],
+  "test" : {"key" : "value"},
+  "nothing" : null
+}
